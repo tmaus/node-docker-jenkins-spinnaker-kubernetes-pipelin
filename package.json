@@ -1,0 +1,28 @@
+{
+  "name": "docker-jenkins-spinnaker-kubernetes-pipelin",
+  "version": "1.0.0",
+  "description": "A simple CI/CD pipeline example using NodeJS => Docker => Jenkins => Spinnaker => Kubernetes",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'test/**Spec.js'",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmaus/node-docker-jenkins-spinnaker-kubernetes-pipelin.git"
+  },
+  "author": "t.maus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmaus/node-docker-jenkins-spinnaker-kubernetes-pipelin/issues"
+  },
+  "homepage": "https://github.com/tmaus/node-docker-jenkins-spinnaker-kubernetes-pipelin#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
